@@ -1,6 +1,6 @@
 package Loops;
 
-public class f76 {
+public class butterfly {
 
 	public static void main(String[] args) {
 		// Butterfly Pattern
