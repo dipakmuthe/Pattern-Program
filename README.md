@@ -10,5 +10,3 @@ This repository contains a collection of Java programs that print various **patt
 - 🔄 Mirror and Inverted Patterns
 - 🔁 Pyramid, Diamond, and other geometric shapes
 
-## 📂 Folder Structure
-
