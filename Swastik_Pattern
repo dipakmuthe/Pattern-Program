@@ -1,0 +1,40 @@
+package Loops;
+
+public class Swastik_Pattern{
+//plus sign pattern using stars.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=12;
+		int a=n/2;
+		int b=a/2;
+		for(int i=1;i<n;i++)
+		{
+			for(int j=1;j<n;j++ )
+			{
+				if(j==a || i==a || i==1 && j>=a || j==1 && i<=a || i==n-1 && j<=a || j==n-1 && i>=a || i==j && i==b || j==(3*b) && i==b || j==b && i==3*b || j==b*3 && i==3*b )
+				{
+					System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+
+# *         * * * * * * 
+# *         *           
+# *   *     *     *     
+# *         *           
+# *         *           
+# * * * * * * * * * * * 
+#           *         * 
+#           *         * 
+#     *     *     *   * 
+#           *         * 
+# * * * * * *         * 
