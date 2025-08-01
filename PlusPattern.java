@@ -5,6 +5,7 @@ public class PlusPattern{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n=10;
+		
 		int a=n/2;
 		for(int i=1;i<n;i++)
 		{
